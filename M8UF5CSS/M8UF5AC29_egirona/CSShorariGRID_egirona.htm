@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <table border="2" align="center" cellpadding="12" cellspacing="15">
+        <tbody>
+            <tr>
+                <th bgcolor="green">Hora</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+            <tr align="center">
+                <td>15:30 - 16:25</td>
+                <td rowspan="3"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa"><img src="img/redes-informaticas-4.png" width="70px" alt="Aqui hi ha una imatge amb una red informatica"></a></td>
+                <td rowspan="2"><a href="https://ca.wikipedia.org/wiki/Seguretat_inform%C3%A0tica"><img src="img/Seguridad_Informatica.jpg" width="70px" alt="Aqui hi ha una imatge de un candau amb una xarxa"></a></td>
+                <td></td>
+                <td rowspan="3"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa"><img src="img/redes-informaticas-4.png" width="70px" alt="Aqui hi ha una imatge amb una red informatica"></a></td>
+                <td rowspan="2"><a href="https://ca.wikipedia.org/wiki/Angl%C3%A8s"><img src="img/diferencias-entre-ingles-americano-y-britanico-2dbdf319.png" width="70px" alt="Aqui hi ha una imatge amb la bandera del Regne unit i una altre de Estats Units"></a></td>
+            </tr>
+            <tr align="center">
+                <td>16:25 - 17:20</td>
+                <td rowspan="2"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+            </tr>
+            <tr align="center">
+                <td>17:20 - 18:15</td>
+                <td><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+                <td><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+            </tr>
+            <tr align="center">
+                <td colspan="6">PATI</td>
+            </tr>
+            <tr align="center">
+                <td>18:40 - 19:35</td>
+                <td rowspan="3"><a href="https://ca.wikipedia.org/wiki/Seguretat_inform%C3%A0tica"><img src="img/Seguridad_Informatica.jpg" width="70px" alt="Aqui hi ha una imatge de un candau amb una xarxa"></a></td>
+                <td><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+                <td><a href="https://ca.wiktionary.org/wiki/tutoria"><img src="img/Foto-profesora-tutotia-alumnos-unir.jpg" width="70px" alt="Aqui hi ha una imatge de uns alumnes parlant amb la seva tutora"></a></td>
+                <td rowspan="2"><a href="http://www.valnaloneduca.com/eie/cont/presentacion"><img src="img/eie.jpg" width="70px" alt="Aqui hi ha una imatge amb un botó on posa crear mi empresa"></a></td>
+                <td><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+            </tr>
+            <tr align="center">
+                <td>19:35 - 20:30</td>
+                <td rowspan="2"></td>
+                <td><a href="https://ca.wikipedia.org/wiki/Angl%C3%A8s"><img src="img/diferencias-entre-ingles-americano-y-britanico-2dbdf319.png" width="70px" alt="Aqui hi ha una imatge amb la bandera del Regne unit i una altre de Estats Units"></a></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr align="center">
+                <td>20:30 - 21:25</td>
+                <td></td>
+                <td><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <div class="horari">
+        <div class="grid-item">Hora</div>
+        <div class="grid-item">Dilluns</div>
+        <div class="grid-item">Dimarts</div>
+        <div class="grid-item">Dimecres</div>
+        <div class="grid-item">Dijous</div>
+        <div class="grid-item">Divendres</div>
+        <div class="grid-item">15:30 - 16:25</div>
+        <div class="grid-item" id="M7dilluns"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa"><img src="img/redes-informaticas-4.png" width="70px" alt="Aqui hi ha una imatge amb una red informatica"></a></div>
+        <div class="grid-item" id="M6dimarts"><a href="https://ca.wikipedia.org/wiki/Seguretat_inform%C3%A0tica"><img src="img/Seguridad_Informatica.jpg" width="70px" alt="Aqui hi ha una imatge de un candau amb una xarxa"></a></div>
+        <div class="grid-item" id="Noclassedimecres"></div>
+        <div class="grid-item" id="M7dijous"><a href="https://ca.wikipedia.org/wiki/Servei_de_xarxa"><img src="img/redes-informaticas-4.png" width="70px" alt="Aqui hi ha una imatge amb una red informatica"></a></div>
+        <div class="grid-item" id="Anglesdivendres"><a href="https://ca.wikipedia.org/wiki/Angl%C3%A8s"><img src="img/diferencias-entre-ingles-americano-y-britanico-2dbdf319.png" width="70px" alt="Aqui hi ha una imatge amb la bandera del Regne unit i una altre de Estats Units"></a></div>
+        <div class="grid-item">16:25 - 17:20</div>
+        <div class="grid-item" id="M8dimecres"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>
+        <div class="grid-item">17:20 - 18:15</div>
+        <div class="grid-item" id="M8dimarts1"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>
+        <div class="grid-item" id="M8divendres1"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>
+        <div class="grid-item" class="grid-item" id="Pati">PATI</div>
+        <div class="grid-item">18:40 - 19:35</div>
+        <div class="grid-item" id="M6dilluns"><a href="https://ca.wikipedia.org/wiki/Seguretat_inform%C3%A0tica"><img src="img/Seguridad_Informatica.jpg" width="70px" alt="Aqui hi ha una imatge de un candau amb una xarxa"></a></div>
+        <div class="grid-item" id="M8dimarts2"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>
+        <div class="grid-item" id="Tutoria"><a href="https://ca.wiktionary.org/wiki/tutoria"><img src="img/Foto-profesora-tutotia-alumnos-unir.jpg" width="70px" alt="Aqui hi ha una imatge de uns alumnes parlant amb la seva tutora"></a></div>
+        <div class="grid-item" id="Eie"><a href="http://www.valnaloneduca.com/eie/cont/presentacion"><img src="img/eie.jpg" width="70px" alt="Aqui hi ha una imatge amb un botó on posa crear mi empresa"></a></div>
+        <div class="grid-item" id="M8divendres2"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>
+        <div class="grid-item">19:35 - 20:30</div>
+        <div class="grid-item" id="noclassedimarts"></div>
+        <div class="grid-item" id="Anglesdimecres"><a href="https://ca.wikipedia.org/wiki/Angl%C3%A8s"><img src="img/diferencias-entre-ingles-americano-y-britanico-2dbdf319.png" width="70px" alt="Aqui hi ha una imatge amb la bandera del Regne unit i una altre de Estats Units"></a></div>
+        <div class="grid-item" id="noclassedivendres"></div>
+        <div class="grid-item">20:30 - 21:25</div>
+        <div class="grid-item" id="Noclassedimecres"></div>
+        <div class="grid-item" id="M8dijous"><a href="https://ca.wikipedia.org/wiki/Aplicaci%C3%B3_web"><img src="img/desarrollo-aplicaciones-web.png" width="70px" alt="Aqui hi ha una imatge de diferents tipus de pàgines"></a></div>     
+                                      
+    </div>
+</body>
+</html>

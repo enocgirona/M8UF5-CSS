@@ -1,0 +1,40 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    padding: 20px;
+}
+header {
+    border: 5px solid red;
+    padding: 30px;
+    height: 20%;
+    margin-top: 7px;
+}
+aside {
+    border: 5px solid greenyellow;
+    padding-bottom: 160px;
+    padding-top: 70px;
+    width: 20%;
+    display: inline-block;
+    margin-top: 7px;
+    }
+div {
+    width: 78%;
+    float: right;
+}
+nav {
+    border: 5px solid skyblue;
+    padding-bottom: 50px;
+    margin-top: 7px;
+}
+article {
+    border: 5px solid yellow;
+    padding-bottom: 145px;
+    margin-top: 7px;
+}
+footer {
+    border: 5px solid purple;
+    padding: 30px;
+    margin-top: 7px;
+}

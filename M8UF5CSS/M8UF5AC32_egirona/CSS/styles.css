@@ -1,0 +1,86 @@
+body {
+    background-image: url(../img/fons.jpg);
+}
+#todo {
+    margin: 0 auto;
+    height: 500px;
+    width: 700px;
+}
+#SMX{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    width: 110px;
+    height: 80px;
+    text-align: right;
+    line-height: 80px;
+}
+ul {
+    list-style: none;
+    float: right;
+    margin: 0 auto;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.item{
+    background-color: skyblue;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+#inici {
+    background-color: black;
+}
+.txt {
+    font-size: 95px;
+    text-align: center;
+}
+#fotos {
+    background-color: grey;
+    height: 210px;
+    text-align: center;
+    margin-left: -1000px;
+    margin-right: -1000px;
+}
+#edifici{
+    float: inline-start;
+    padding-right: 80px;
+    margin-top: 20px;
+    margin-left: 1000px;
+}
+.foto{
+    height: 150px;
+    width: 165px;
+    border-radius: 50%;
+}
+#modul8{
+    float: left;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+#alumne{
+    float: left;
+    margin-top: 20px;
+}
+#fotos p {
+    color: white;
+}
+.item:hover {
+    background-color: yellow;
+}
+#icons {
+    margin-left: 35%;
+    margin-right: 30%;
+    font-size: 30px;
+}
+
+
+

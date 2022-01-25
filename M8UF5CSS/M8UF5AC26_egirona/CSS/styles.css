@@ -1,0 +1,245 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    margin: auto;
+}
+#todo {
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -200px;
+}
+#uno {
+    background-color: #e80000;
+    width: 200px;
+    height: 70px;
+    display: inline-flex;
+    float: left;
+    margin: 0px;
+}
+#dos {
+    background-color: royalblue;
+    width: 200px;
+    height: 70px;
+    float: right;
+    margin: 0px;
+}
+#tres {
+    background-color: goldenrod;
+    width: 100px;
+    height: 140px;
+    float: inline-start;
+}
+#cuatro {
+    background-color: purple;
+    width: 100px;
+    height: 70px;
+    float: inline-start;
+}
+#cinco {
+    background-color: navy;
+    width: 200px;
+    height: 70px;
+    float: right;
+}
+#seis {
+    background-color: plum;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+#siete {
+    background-color: goldenrod;
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+}
+#ocho {
+    background-color: white;
+    width: 100px;
+    height: 70px;
+    float: inline-end;
+}
+#nueve {
+    background-color: mediumslateblue;
+    width: 100px;
+    height: 70px;
+    float: inline-start;
+}
+#diez {
+    background-color: brown;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+#once {
+    background-color: #e80000;
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+}
+#doce {
+    background-color: saddlebrown;
+    width: 100px;
+    height: 70px;
+    float: inline-end;
+}
+#todo2 {
+    position: absolute;
+}
+#col1 {
+    float: left;
+    width: 70px;
+    margin-right: 15px;
+}
+#col2 {
+    float: left;
+    width: 140px;
+    margin-right: 15px;
+}
+#col3 {
+    float: left;
+    width: 140px;
+    margin-right: 15px;
+}
+#col4 {
+    float: left;
+    width: 140px;
+    margin-right: 15px;
+}
+#col5 {
+    float: left;
+    width: 140px;
+}
+#white1 {
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    }
+#yellow1 {
+    background-color: goldenrod;
+    width: 100%;
+    height: 438px;
+}
+#blue1 {
+    background-color: #464ec7;
+    width: 100%;
+    height: 150px;
+}
+#red1 {
+    background-color: #e80000;
+    height: 260px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#yellow2 {
+    background-color: goldenrod;
+    width: 100%;
+    height: 272px;
+}
+#yellow3 {
+    background-color: goldenrod;
+    width: 45%;
+    height: 115px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+#red2 {
+    background-color: #e80000;
+    width: 45%;
+    height: 45px;
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+#white2 {
+    background-color: white;
+    width: 100%;
+    height: 220px;
+}
+#white3 {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+#white4 {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+#yellow4 {
+    background-color: goldenrod;
+    width: 45%;
+    height: 45px;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#red3 {
+    background-color: #e80000;
+    width: 45%;
+    height: 45px;
+    float: right;
+    margin-bottom: 15px;
+}
+#red4 {
+    background-color: #e80000;
+    width: 45%;
+    height: 102px;
+    float: right;
+}
+#red5 {
+    background-color: #e80000;
+    width: 45%;
+    height: 50px;
+    float: right;
+    margin-top: -50px;
+}
+#yellow5 {
+    background-color: goldenrod;
+    width: 45%;
+    height: 160px;
+    display: inline-flex;
+    margin-top: 15px;
+}
+#yellow6 {
+    background-color: goldenrod;
+    width: 45%;
+    height: 160px;
+    float: right;
+    margin-top: 15px;
+}
+#white5 {
+    background-color: white;
+    width: 45%;
+    height: 40px;
+    display: inline-flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#blue2 {
+    background-color: #464ec7;
+    width: 45%;
+    height: 102px;
+    display: inline-flex;
+}
+#red6 {
+    background-color: #e80000;
+    width: 100%;
+    height: 75px;
+    margin-top: -15px;
+}
+#white6 {
+    background-color: white;
+    width: 45%;
+    height: 40px;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+img {
+    margin-top: 700px;
+}

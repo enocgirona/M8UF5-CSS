@@ -1,0 +1,22 @@
+.horari {
+    grid-area: auto;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(6, 100px);
+}
+.grid-item {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+#M7dilluns, #M7dijous, #M6dilluns {
+    grid-row: 3 span;
+}
+#M6dimarts, #noclassedimarts, #M8dimecres, #Eie, #Anglesdivendres, #noclassedivendres {
+    grid-row: 2 span;
+}
+#Pati {
+    grid-column: 6 span;
+}
+
+
